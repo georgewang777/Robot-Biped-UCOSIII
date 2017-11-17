@@ -141,7 +141,7 @@ void task1_task(void *p_arg)
 			//OSSemPost (&MY_SEM,OS_OPT_POST_1,&err);	//发送信号量
 			RxCount=0;
 			UsartRace_Data();                       //处理接收到的数据
-			process();                              //机器人进程
+		//	process();                              //机器人进程
 			ClearUart2();
 			OSTaskSuspend((OS_TCB*)&Task2_TaskTCB,&err);
 		}

@@ -129,7 +129,7 @@ void Servo3_pos(u8 dir,u8 angle)
 		Servo3(Pulse3);
 		delay_ms(tim1);
 	}
-	printf("beauty:%d",Pulse3);
+	//printf("beauty:%d",Pulse3);
 }
 
 void Servo4_pos(u8 dir,u8 angle)
